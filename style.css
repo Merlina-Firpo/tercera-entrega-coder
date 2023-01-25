@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: #FFE2EC;
+    width: 100%;
+    height: 300px;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.reve{
+    width: 200px;
+    height: 160px;
+}
+
+.barra{
+    background-image: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+    display: flex;
+    justify-content: center;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.navbar{
+    display: flex;
+    text-decoration: none;
+    background-color: #FFE2EC;
+    justify-content: flex;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.entrada{
+    display: flex;
+    justify-content: center;
+    color:cornflowerblue;
+    size: 50px;
+}
+
+.col{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color:cornflowerblue;
+    size: 50px;
+}
+
+body{
+    background-color: whitesmoke;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    grid-template-areas: 
+    "carousel col col"
+    "carousel col col"
+}
+
+main{
+    background-color: whitesmoke;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+.carousel-slide{
+    width: 500px;
+    height: 500px;
+    display: flex;
+}
+
+.carousel-item{
+    width: 500px;
+    height: 500px;
+    display: flex;
+}
+
+footer{
+    background-image: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+    display: flex;
+    justify-content: center;
+    width: vh;
+    height: 100px;
+}
+
+.foot p :hover{
+    color: palevioletred;
+}
+
+.foot{
+    justify-content: space-between;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+}
+
+.foot__img{
+    font-size:20px;
+}
+
+.form{
+    justify-content: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+}
+
+@media (max-width:768px){
+    .navbar{
+        justify-content: center;
+        display: flex;
+    }
+    .carousel-item{
+        justify-content: center;
+    }
+    .form{
+        font-size: 30px;
+    }
+    .foot{
+        justify-content: right;
+        display: flex;
+    }
+}
+    
+@media (max-width:320px){
+    .navbar{
+        display: flex;
+        font-size:10px;
+    }
+    .carousel-item{
+        justify-self: center;
+    }
+    .form{
+        font-size:10px;
+    }
+    .foot{
+        display: flex;
+        font-size: 10px;
+
+    }
+}
