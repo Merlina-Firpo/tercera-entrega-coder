@@ -12,9 +12,11 @@ header{
     size: 20px;
     @include flex;
     }
+
     .reve{
     width: 200px;
     height: 160px;
+    justify-content: left;
     }
     .navbar{
     display: flex;

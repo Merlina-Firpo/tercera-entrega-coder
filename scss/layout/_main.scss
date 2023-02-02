@@ -1,54 +1,22 @@
-body{
-    background-color: whitesmoke;
-    font-family:$tipografia-uno;
-    grid-template-areas: 
-    "carousel col col"
-    "carousel col col"
-}
-
 main{
-    background-color: whitesmoke;
+    background-color: blanchedalmond;
     font-family: $tipografia-uno;
 
     .carousel-slide{
-    width: 500px;
-    height: 500px;
+    width: 300px;
+    height: 300px;
     display: flex;
     }
 
     .carousel-item{
-    width: 500px;
-    height: 500px;
+    width: 300px;
+    height: 300px;
     display: flex;
-    }
-
-    footer{
-    background-image: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
-    display: flex;
-    justify-content: center;
-    width: vh;
-    height: 100px;
-    }
-
-    .foot p :hover{
-    color: palevioletred;
-    }
-
-    .foot{
-    justify-content: space-between;
-    text-decoration: none;
-    font-size: 15px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: black;
-    }
-
-    .foot__img{
-    font-size:20px;
     }
 
     .form{
     justify-content: center;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: $tipografia-dos;
     font-size: 20px;
     }
 }
