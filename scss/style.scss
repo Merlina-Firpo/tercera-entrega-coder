@@ -1,9 +1,10 @@
 @import"./base/reset";
 @import"./utilities/variables";
+@import"./base/typo";
 @import"./utilities/mixins";
-@import"/layout/header";
+@import"./layout/header";
 @import"./layout/main";
 @import"./layout/body";
-@import"layout/footer";
+@import".layout/footer";
 @import"./layout/mediaQ";
 
